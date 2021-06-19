@@ -1,0 +1,83 @@
+body{
+    background: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.postcard{
+    background: white;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.postcard-header{
+    display: flex;
+    
+}
+
+.postcard-header img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px 0px 0px;
+}
+
+.postcard-header h1{
+    margin: 15px 0px 0px 35px;
+    width: 100%;
+    font-size: 70px;
+}
+
+.postcard-body{
+    display: flex;
+
+}
+
+p{
+    font-size: 1.9em;
+    padding-left: 20px;
+}
+
+.body-right{
+ width: 100%;
+ padding-left: 90px;
+ margin-top: 50px;
+}
+
+.body-left{
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+input{
+    font-size: 1.5em;
+    margin-top: 30px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+    border-bottom: 2px solid black;
+    padding-left: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.postcard-footer {
+
+    text-align: center;
+
+}
+
+button{
+    background-color: rgb(68, 67, 67);
+    width: 30%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(177, 177, 177);
+    color: black;
+}
+ 
